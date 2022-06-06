@@ -1,0 +1,17 @@
+*{
+    background-color: rgba(250, 235, 215, 0.849);
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    padding: 10% 0;
+}
