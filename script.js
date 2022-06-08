@@ -66,11 +66,19 @@ function calculatePrice(){
         alert("numara gir");
     }
     else{
-        alert("numara");
+        
 
         let price = document.getElementById("gasInput").value*pompaFiyat;
 
-        document.getElementById("showPrice").innerHTML=price;
+        let price2=parseFloat(price.toPrecision(4))
+
+        document.getElementById("showPrice").innerHTML=price2;
     }
     
 }
+
+
+function updateLtText(val) {
+    //document.getElementById('litre').innerHTML=`${val} lt`;
+    document.getElementById('litre2').value=`${val}`; 
+  }
