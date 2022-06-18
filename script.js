@@ -39,6 +39,7 @@ function getPrice (){
             let ic="";
 
             //normal api de bu yok
+            console.log(responseJson);
             let yakitJson= JSON.parse(responseJson.contents);
             
 
